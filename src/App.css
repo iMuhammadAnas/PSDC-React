@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 200px;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 15px;
+}
+
+.container img {
+  width: 100%;
+}
+
+.count {
+  font-size: 60px;
+}
+
+.stepper {
+  width: 500px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  color: #333;
+}
+.stepper h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.step {
+  flex: 1;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  /* background-color: skyblue; */
+  border-radius: 4px;
+}
+
+.stepper-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.stepper-controls button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.stepper-controls button:hover {
+  background-color: #0056b3;
+}
+
+.active {
+  color: red;
+}
