@@ -1,69 +1,38 @@
-# React + TypeScript + Vite
+# React Classwork & Assignments – Baitussalam PSDC
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains my ongoing classwork, exercises, and assignments from the React course at Baitussalam PSDC.  
+I am regularly updating this repo as the course progresses.
 
-Currently, two official plugins are available:
+## 📝 Daily Logs
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Today's assignment is to enhance the Todo app by adding edit functionality so users can update their tasks, and to show a line-through effect on a task when it's marked as complete.
+- To complete this task, go to: `src/components/todo/Todo.tsx`
 
-## Expanding the ESLint configuration
+<!-- ### ✅ August 4, 2025
+- **Topic Covered**: React Components, JSX Basics  
+- **Assignment**: Convert provided HTML sections into reusable React components -->
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<!-- Add more logs like this as the course progresses -->
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 💡 How to Use
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Clone the repo:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+   ```bash
+   git clone https://github.com/iMuhammadAnas/PSDC-React.git
+   
+- Navigate to the folder:
+  
+  ```bash
+   cd PSDC-React
+  
+- Install dependencies:
+  
+  ```bash
+  npm install
+  
+- Start the project:
+  
+  ```bash
+  npm start
