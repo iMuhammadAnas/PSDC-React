@@ -5,7 +5,7 @@ I am regularly updating this repo as the course progresses.
 
 ## 📝 Daily Logs
 
-- Today's assignment is to enhance the Todo app by adding edit functionality so users can update their tasks, and to show a line-through effect on a task when it's marked as complete.
+- Today assignment is to enhance the Todo app by adding edit functionality so users can update their tasks, and to show a line-through effect on a task when it's marked as complete.
 - To complete this task, go to: `src/components/todo/Todo.tsx`
 
 <!-- ### ✅ August 4, 2025
